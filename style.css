@@ -1,3 +1,59 @@
-h1{
-    font-size:40px;
+body{
+    margin:0;
+    padding:0;
+    font-family:'PT Sans Narrow';
+    font-size:21px;
+}
+.button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color:white;
+    background-color:#23272B;
+}
+.button:hover{
+    color:white;
+    background-color:#F46183;
+}
+.container-sidetext{
+    padding-top:40px;
+}
+.card{
+    box-shadow:5px 5px 5px 5px gray;
+    border-radius:10px;
+}
+.categories{
+    text-align:center;
+    padding:50px 10px;
+    text-decoration:underline #D2691E;
+}
+.categories-part{
+    box-shadow: 5px 5px 5px 5px gray;
+    border-radius: 10px;
+}
+#contact{
+    background:orange;
+    padding:40px;
+    margin-top:50px;
+    box-shadow:5px 5px 5px 5px gray;
+    border-radius:10px;
+}
+.submit-button{
+    color:white;
+    background-color:#F4668F;
+    margin-top:10px;
+    border:none;
+    padding:2px 10px;
+    margin-left:65px;
+}
+footer{
+    text-align: center;
+    color: indigo;
+    font-size:18px;
+    margin-top:10px;
+}
+#footer-anchor{
+    text-decoration: none;
+    cursor: pointer;
+    color: blue;
 }
